@@ -12,7 +12,7 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: #fff;
+  background-color: rgb(174, 36, 36);
   position: relative;
 }
 
@@ -79,7 +79,7 @@ header a {
 }
 
 header .inner {
-  background-color: #fff;
+  background-color: rgb(237, 237, 237);
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -120,7 +120,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: #ccc;
+  background-color: rgba(22, 72, 209, 0.853);
 }
 
 #menu_btn{
@@ -130,7 +130,7 @@ header .inner {
   border-radius: 20px;
   right: 10px;
   top: 7px;
-  background-color: #ccc;
+  background-color: rgba(24, 119, 136, 0.85);
   z-index: 30;
   cursor: pointer;
   display: none;
@@ -166,7 +166,7 @@ footer
 ======================================================*/
 footer {
   background-color: #333;
-  color: #fff;
+  color: rgba(203, 172, 16, 0.905);
   text-align: center;
   padding: 20px;
   font-size: 10px;
@@ -197,7 +197,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: #fff;
+  color: rgba(19, 147, 227, 0.858);
   font-weight: bold;
   background-image: url(../images/top.jpg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
@@ -309,7 +309,7 @@ reportページ
 
 .report_eye_catch {
   height: 300px;
-  background-image: url(../images/report.jpg);
+  background-image: url(../images/IMG_2141.JPG);
   background-size: cover;
   background-position: center center;
   display: flex;
